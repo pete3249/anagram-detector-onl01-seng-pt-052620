@@ -13,6 +13,7 @@ class Anagram
       if @word.split("").sort == thing.split("").sort
         matching_anagrams << thing
       end 
+    end 
     matching_anagrams
   end 
   
