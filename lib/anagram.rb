@@ -8,7 +8,7 @@ class Anagram
   end 
   
   def match(list_of_words)
-    list_of_words.
+    list_of_words.find_all
     
     
   end 
