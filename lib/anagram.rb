@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   attr_accessor :word
   
@@ -5,7 +7,9 @@ class Anagram
     @word = word
   end 
   
-  def match
+  def match(list_of_words)
+    list_of_words.
+    
     
   end 
   
