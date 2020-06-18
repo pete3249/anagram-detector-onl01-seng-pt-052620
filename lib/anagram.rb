@@ -11,17 +11,9 @@ class Anagram
     matching_anagrams = []
     list_of_words.each do |thing|
       if @word.split("").sort == thing.split("").sort
-        matching_anagrams << 
-        
-        
-    end 
-    
-    
-    
-    word_array = list_of_words.split(" ")
-    
-    
-    
+        matching_anagrams << thing
+      end 
+    matching_anagrams
   end 
   
 end 
