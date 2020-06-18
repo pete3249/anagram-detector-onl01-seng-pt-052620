@@ -8,7 +8,8 @@ class Anagram
   end 
   
   def match(list_of_words)
-    list_of_words.find_all
+    word_array = list_of_words.split(" ")
+    binding.pry
     
     
   end 
