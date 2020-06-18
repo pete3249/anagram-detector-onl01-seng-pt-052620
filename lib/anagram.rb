@@ -8,8 +8,8 @@ class Anagram
   end 
   
   def match(list_of_words)
-    list_of_words.each do |word|
-      word.split(",")
+    list_of_words.each do |thing|
+      @word.split
     end 
     
     
