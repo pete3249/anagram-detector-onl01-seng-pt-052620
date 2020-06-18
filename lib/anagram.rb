@@ -8,7 +8,12 @@ class Anagram
   end 
   
   def match(list_of_words)
-    binding.pry
+    list_of_words.each do |word|
+      word.split(" ")
+    end 
+    
+    
+    
     word_array = list_of_words.split(" ")
     
     
